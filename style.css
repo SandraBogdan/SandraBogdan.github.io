@@ -7,3 +7,14 @@
   list-style: none;
   font-family: 'PT Sans', sans-serif;
 }
+
+body{
+  background: linear-gradient(to right, #3525af,#9153c9);
+}
+
+.resume{
+  width: 800px;
+  background: #fff;
+  margin:25px auto;
+  display:flex ;
+}
