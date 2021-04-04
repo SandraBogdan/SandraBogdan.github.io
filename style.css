@@ -150,6 +150,10 @@ body{
   margin-top: 20px;
   line-height: 26px;
 }
+.right_inner{
+  padding: 30px;
+  color: #292b2f;
+}
 .right_inner .education{
   margin-top: 30px;
 }
