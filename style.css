@@ -101,7 +101,7 @@ body{
   color: #fff;
 }
 
-.skills ul
+.skills 
 {
 display: flex;
 flex-wrap: wrap;
@@ -121,6 +121,6 @@ justify-content: space-between;
 
 }
 
-.skills . .li_wrap .text{
+.skills .li_wrap .text{
   margin-top: 5px;
 }
