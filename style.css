@@ -101,6 +101,11 @@ body{
   color: #fff;
 }
 
+.skills ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 .skills .li_wrap{
   display: flex;
   align-items:center;
@@ -114,6 +119,7 @@ body{
   background: #fff;
   border-radius:  15px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-right: 15px;
