@@ -185,7 +185,7 @@ body{
 }
 .right_inner .li_wrap .info:before{
   content: "";
-  position: absolute;
+  
   top: 3px;
   left: 0;
   width: 10px;
@@ -195,7 +195,7 @@ body{
 }
 .right_inner .li_wrap .info:after{
   content: "";
-  position: absolute;
+  
   top: 10px;
   left: 4px;
   width: 2px;
