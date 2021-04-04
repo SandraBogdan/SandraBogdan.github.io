@@ -126,7 +126,7 @@ body{
   color: #fff;
 }
 
-.header{
+.header {
   background: #292b2f;
   padding: 15px 30px;
   color: #fff;
@@ -134,7 +134,7 @@ body{
 
 }
 
-.header .name{
+.header .name {
   font-size: 52px;
   text-transform: uppercase;
   font-weight: 700;
@@ -146,7 +146,7 @@ body{
   font-size: 20px;
 }
 
-.header.about{
+.header .about{
   margin-top: 20px;
   line-height: 26px;
 }
