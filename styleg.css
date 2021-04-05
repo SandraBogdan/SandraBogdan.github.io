@@ -35,8 +35,16 @@ margin-top:auto
     max-height: 160px;
     flex-shrink: 0;
     box-sizing: border-box;
+    padding: 20px;
 }
 .searcher_top{
+    position: relative;
+    margin: 0 auto;
+    padding-top: 6px;
+    width: auto;
+    max-width: 584px;
+}
+.pasek{
     background: #fff;
     display: flex;
     border: 1px solid #dfe1e5;
@@ -49,3 +57,9 @@ margin-top:auto
     max-width: 584px;
 }
 
+.pp{
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+}
