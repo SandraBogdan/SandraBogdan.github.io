@@ -37,13 +37,6 @@ margin-top:auto
     box-sizing: border-box;
 }
 .searcher_top{
-    width: auto;
-    max-width: 584px;
-    position: relative;
-    margin: 0 auto;
-    padding-top: 6px;
-}
-.pasek{
     background: #fff;
     display: flex;
     border: 1px solid #dfe1e5;
@@ -54,5 +47,4 @@ margin-top:auto
     margin: 0 auto;
     width: auto;
     max-width: 584px;
-}
 }
