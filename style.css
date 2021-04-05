@@ -10,7 +10,7 @@
 }
 
 body{
-  background: linear-gradient(to right,#2d5b5f,#82c5ca);
+  background: linear-gradient(to right,#288088,#04e9e9);
 }
 
 .resume{
@@ -50,7 +50,7 @@ body{
   text-transform: uppercase;
   letter-spacing: 5px;
   padding-bottom: 10px;
-  color: #2d5b5f;
+  color: #288088;
   position : relative;
   text-align: center;
   margin-bottom: 15px;
@@ -63,16 +63,16 @@ body{
     right: 0;
     width: 50px;
     height: 3px;
-    background:#2d5b5f;
+    background:#288088;
 
   }
 .left .icon{
   font-size: 20 px;
   color: 20px;
-  color: #82c5ca;
+  color: #04e9e9;
 }
 .left .text{
-  color: #82c5ca;
+  color: #04e9e9;
   text-decoration: uppercase;
   font-size: 13px;
 }
@@ -137,7 +137,7 @@ body{
 
 .skills .li_wrap:hover .icon
 .skills .li_wrap:hover .text{
-  color:#82c5ca
+  color:#04e9e9;
 }
 
 
@@ -152,7 +152,7 @@ body{
   font-size: 52px;
   text-transform: uppercase;
   font-weight: 700;
-  color:#2d5b5f
+  color:#288088;
 }
 
 .header .role{
@@ -180,7 +180,7 @@ body{
 }
 .right_inner .li_wrap .date{
   width: 125px;
-  color: #82c5ca;
+  color: #04e9e9;
 }
 .right_inner .li_wrap .info{
   width: calc(100%-125px);
@@ -192,7 +192,7 @@ body{
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 2px;
-  color: #82c5ca;
+  color: #04e9e9;
 }
 
 .right_inner .li_wrap .info_com{
@@ -211,7 +211,7 @@ margin-top: 3px;
   left: 0;
   width: 10px;
   height: 10px;
-  background:#82c5ca;
+  background:#04e9e9;
   border-radius: 50%;
 }
 .right_inner .li_wrap .info:after{
@@ -221,6 +221,6 @@ margin-top: 3px;
   left: 4px;
   width: 2px;
   height: 90%;
-  background: #82c5ca;
+  background: #04e9e9;
   border-radius: 50%;
 }
