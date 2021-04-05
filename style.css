@@ -185,7 +185,7 @@ body{
 .right_inner .li_wrap .info{
   width: calc(100%-125px);
   padding-left: 25px;
-  position: relative;
+
 
 }
 .right_inner .li_wrap .info_title{
