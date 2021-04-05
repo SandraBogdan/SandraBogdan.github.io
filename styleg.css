@@ -23,3 +23,10 @@ body{
     flex-shrink: 0;
     box-sizing: border-box;
 }
+.pasek_loga{
+    display:flex;
+flex-direction:column;
+align-items:center;
+height:100%;
+margin-top:auto
+}
