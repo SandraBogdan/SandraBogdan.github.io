@@ -133,6 +133,16 @@ body{
   color: #fff;
 }
 
+.skills .li_wrap:hover{
+  background: #fff;
+}
+
+.skills .li_wrap:hover .icon
+.skills .li_wrap:hover .text{
+  color: #9153c9;
+}
+
+
 .header {
   background: #292b2f;
   padding: 15px 30px;
