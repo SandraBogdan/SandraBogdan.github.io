@@ -36,3 +36,10 @@ margin-top:auto
     flex-shrink: 0;
     box-sizing: border-box;
 }
+.searcher_top{
+    width: auto;
+    max-width: 584px;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 6px;
+}
