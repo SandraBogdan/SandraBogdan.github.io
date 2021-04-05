@@ -68,7 +68,8 @@ margin-top:auto
     background-color: transparent;
     border: none;
     margin: 10;
-    padding: 0;
+    padding: 20;
+    padding-right:300px;
     color: rgba(0,0,0,.87);
     word-wrap: break-word;
     outline: none;
@@ -76,5 +77,5 @@ margin-top:auto
     flex: 100%;
     margin-top: -20px;
     height: 40px;
-    font-size: 50px;
+    font-size: 18px;
 }
