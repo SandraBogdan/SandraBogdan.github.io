@@ -111,27 +111,25 @@ body{
   align-items:center;
   width: 100%;
   margin-bottom: 15px;
-  background: #fff;
-}
-
-.skills .li_wrap .icon{
-  width: 50px;
-  height: 50px;
-  background: #fff;
-  border-radius:  15px;
-  display: flex;
+  border-radius: 15px;
+  display:flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-right: 15px;
+  border: 2px solid #fff;
+}
+
+.skills .li_wrap .icon
+.skills .li_wrap .text
+{
+ color: #fff;
 
 }
 
 .skills .li_wrap .text{
-  width: calc(100%-50px);
-  word-break: break-word;
-  color: #fff;
+ margin-top: 5px;
 }
+
 
 .skills .li_wrap:hover{
   background: #fff;
