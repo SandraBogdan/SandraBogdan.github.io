@@ -63,3 +63,19 @@ margin-top:auto
     padding: 5px 8px 0 16px;
     padding-left: 14px;
 }
+.dodatek{
+    background-color: transparent;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: -37px;
+    height: 34px;
+    font-size: 16px;
+}
