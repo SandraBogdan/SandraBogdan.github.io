@@ -107,9 +107,9 @@ body{
   justify-content: space-between;
 }
 .skills .li_wrap{
-  display: flex;
-  align-items:center;
-  width: 100%;
+
+  width: 100px;
+  height: 100px;
   margin-bottom: 15px;
   border-radius: 15px;
   display:flex;
