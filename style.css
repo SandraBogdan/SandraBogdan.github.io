@@ -10,7 +10,7 @@
 }
 
 body{
-  background: linear-gradient(to right,#288088,#04e9e9);
+  background: linear-gradient(to right,#288088,#0bc2b3);
 }
 
 .resume{
@@ -69,10 +69,10 @@ body{
 .left .icon{
   font-size: 20 px;
   color: 20px;
-  color: #04e9e9;
+  color: #0bc2b3;
 }
 .left .text{
-  color: #04e9e9;
+  color: #0bc2b3;
   text-decoration: uppercase;
   font-size: 13px;
 }
@@ -137,7 +137,7 @@ body{
 
 .skills .li_wrap:hover .icon
 .skills .li_wrap:hover .text{
-  color:#04e9e9;
+  color:#0bc2b3;
 }
 
 
@@ -180,7 +180,7 @@ body{
 }
 .right_inner .li_wrap .date{
   width: 125px;
-  color: #04e9e9;
+  color: #0bc2b3;
 }
 .right_inner .li_wrap .info{
   width: calc(100%-125px);
@@ -192,7 +192,7 @@ body{
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 2px;
-  color: #04e9e9;
+  color: #0bc2b3;
 }
 
 .right_inner .li_wrap .info_com{
@@ -211,7 +211,7 @@ margin-top: 3px;
   left: 0;
   width: 10px;
   height: 10px;
-  background:#04e9e9;
+  background:#0bc2b3;
   border-radius: 50%;
 }
 .right_inner .li_wrap .info:after{
@@ -221,6 +221,6 @@ margin-top: 3px;
   left: 4px;
   width: 2px;
   height: 90%;
-  background: #04e9e9;
+  background: #0bc2b3;
   border-radius: 50%;
 }
