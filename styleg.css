@@ -30,13 +30,7 @@ align-items:center;
 height:100%;
 margin-top:auto
 }
-.searcher{
-    padding: 20px;
-    max-height: 160px;
-    flex-shrink: 0;
-    box-sizing: border-box;
-    padding: 20px;
-}
+
 .searcher_top{
     position: relative;
     margin: 0 auto;
