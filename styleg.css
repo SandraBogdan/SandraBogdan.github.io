@@ -162,7 +162,7 @@ box-sizing: border-box;
     line-height: 44px;
 }
 .plusp{
-    background:(url('//www.gstatic.com/inputtools/images/tia.png') no-repeat center) no-repeat center;
+    background: no-repeat center;
     height: 24px;
     width: 24px;
     vertical-align: middle;
