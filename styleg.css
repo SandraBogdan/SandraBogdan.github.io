@@ -124,3 +124,10 @@ box-sizing: border-box;
     cursor: pointer;
     user-select: none;
 }
+
+.ikonka{
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+}
