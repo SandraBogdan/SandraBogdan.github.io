@@ -78,11 +78,13 @@ box-sizing: border-box;
     display: flex;
     flex: 1;
     flex-wrap: wrap;
+}
 .plus{
     color: transparent;
     flex: 100%;
     white-space: pre;
     height: 34px;
+}
 }
 .dodatek{
     background-color: transparent;
