@@ -1,19 +1,11 @@
 body{
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    font-size: 14px;
-    font-family: arial,sans-serif;
-    color: #222;
-    background: #fff;
-    min-width: 400px;
-    display: block;
-}
-
-.full_page{
     display: flex;
     flex-direction: column;
     height: 100%;
+}
+
+.full_page{
+   
     
 }
 .top{
