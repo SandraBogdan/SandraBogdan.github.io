@@ -74,6 +74,11 @@ box-sizing: border-box;
     padding: 5px 8px 0 16px;
     padding-left: 14px;
 }
+.wyszuk{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
 .dodatek{
     background-color: transparent;
     border: none;
