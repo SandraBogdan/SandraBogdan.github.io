@@ -80,18 +80,8 @@ margin-top:auto
     font-size: 18px;
 }
 .reszta{
-    background-color: #f8f9fa;
-    border: 1px solid #f8f9fa;
-    border-radius: 4px;
-    color: #3c4043;
-    font-family: arial,sans-serif;
-    font-size: 14px;
-    margin: 11px 4px;
-    padding: 0 16px;
-    line-height: 27px;
-    height: 36px;
-    min-width: 54px;
-    text-align: center;
-    cursor: pointer;
-    user-select: none;
+    height: 70px;
+    padding-top: 18px;
+    top: 53px;
+    z-index: 0;
 }
