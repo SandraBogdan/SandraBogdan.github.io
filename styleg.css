@@ -1,11 +1,21 @@
 body{
-    display: flex;
-    flex-direction: column;
     height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+    background: #fff;
+    min-width: 400px;
+    display: block;
 }
 
 .full_page{
-   
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+} 
     
 }
 .top{
@@ -17,11 +27,16 @@ body{
     box-sizing: border-box;
 }
 .pasek_loga{
-    display:flex;
+     display:flex;
 flex-direction:column;
 align-items:center;
 height:100%;
-margin-top:auto
+margin-top:auto;
+min-height: 92px;
+max-height: 290px;
+height: calc(100% - 560px);
+flex-shrink: 0;
+box-sizing: border-box;
 }
 
 .searcher_top{
