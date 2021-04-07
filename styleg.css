@@ -42,6 +42,12 @@ box-sizing: border-box;
     max-height: 92px;
 }
 
+.searcher{
+    padding: 20px;
+    max-height: 160px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
 .searcher_top{
     position: relative;
     margin: 0 auto;
