@@ -132,7 +132,7 @@ box-sizing: border-box;
     margin-top: -5px;
 }
 
-#details{
+.details{
     margin-top: 3px;
     color: #9aa0a6;
     height: 20px;
