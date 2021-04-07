@@ -38,6 +38,11 @@ height: calc(100% - 560px);
 flex-shrink: 0;
 box-sizing: border-box;
 }
+.logo{
+    height: 100%;
+    margin-top: auto;
+    max-height: 92px;
+}
 
 .searcher_top{
     position: relative;
@@ -66,7 +71,6 @@ box-sizing: border-box;
     padding-left: 14px;
 }
 .dodatek{
-    background-color: transparent;
     background-color: transparent;
     border: none;
     margin: 10;
