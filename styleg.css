@@ -36,6 +36,7 @@ body{
     height: 48px;
     color: black;
     position: relative;
+    transition: box-shadow 250ms;
 }
 .pasek_boczny{
     float: right;
@@ -49,6 +50,20 @@ body{
     vertical-align: middle;
     white-space: nowrap;
 
+}
+.szcz{
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    visibility: hidden;
+    width: 328px;
+    z-index: 991;
+    height: 0px;
+    margin-top: 57px;
+    right: 0px;
+    margin-right: 4px;
+    transition: height 0.3s ease-in-out 0s;
+}
 }
 .napisy{
     font-family: arial,sans-serif;
