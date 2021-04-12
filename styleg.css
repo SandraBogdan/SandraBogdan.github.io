@@ -29,18 +29,26 @@ body{
     display: inline-block;
     flex-grow: 1;
 }
+.klasa{
+    min-width: initial;
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+    z-index: 986;
+    height: 48px;
+    color: black;
+    position: relative;
+}
 .pasek_boczny{
-    overflow: hidden;
-    position: absolute;
-    top: 0px;
-    visibility: hidden;
-    width: 328px;
-    z-index: 991;
-    height: 0px;
-    margin-top: 57px;
-    right: 0px;
-    margin-right: 4px;
-    transition: height 0.3s ease-in-out 0s;
+    float: right;
+    padding-left: 32px;
+    box-sizing: border-box;
+    height: 48px;
+    line-height: normal;
+    padding: 0 4px;
+    flex: 0 0 auto;
+    justify-content: flex-end;
+    vertical-align: middle;
+    white-space: nowrap;
+    
 }
 .reszta_paska{
     float: right;
