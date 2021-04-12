@@ -63,7 +63,7 @@ body{
     line-height: normal;
     padding-right: 15px;
 }
-.gmail {
+.gmail .grafika{
     display: inline-block;
     padding-left: 15px;
 }
@@ -271,4 +271,22 @@ box-sizing: border-box;
     height: 24px;
     width: 24px;
     vertical-align: middle;
+}
+.lower{
+    flex-grow: 1;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    display: none;
+}
+.Polska{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+}
+.onas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
 }
