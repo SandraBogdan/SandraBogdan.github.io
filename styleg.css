@@ -52,17 +52,10 @@ body{
 
 }
 .szcz{
-    overflow: hidden;
-    position: absolute;
-    top: 0px;
-    visibility: hidden;
-    width: 328px;
-    z-index: 991;
-    height: 0px;
-    margin-top: 57px;
     right: 0px;
-    margin-right: 4px;
-    transition: height 0.3s ease-in-out 0s;
+    height: 0px;
+    max-height: calc(-63px + 100vh);
+    visibility: hidden;
 }
 
 .napisy{
