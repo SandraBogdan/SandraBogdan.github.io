@@ -25,6 +25,68 @@ body{
     flex-shrink: 0;
     box-sizing: border-box;
 }
+.top_1{
+    display: inline-block;
+    flex-grow: 1;
+}
+.pasek_boczny{
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    visibility: hidden;
+    width: 328px;
+    z-index: 991;
+    height: 0px;
+    margin-top: 57px;
+    right: 0px;
+    margin-right: 4px;
+    transition: height 0.3s ease-in-out 0s;
+}
+.reszta_paska{
+    float: right;
+    position: relative;
+}
+.kwadrat{
+    padding-left: 4px;
+    padding: 4px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.styl{
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 8px;
+    background: #1a73e8;
+    border: 1px solid transparent;
+    font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: .25px;
+    line-height: 16px;
+    margin-right: 8px;
+    min-width: 96px;
+    padding: 9px 23px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+}
+.styl_1{
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+    opacity: 1;
+    background-position: -64px -29px;
+    padding: 8px;
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    height: 40px;
+    width: 40px;
+}
+
 .pasek_loga{
      display:flex;
 flex-direction:column;
