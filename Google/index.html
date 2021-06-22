@@ -11,11 +11,13 @@
   
     <title>Google</title>
     <link rel="stylesheet" href="styleg.css">
-
+    <link rel="stylesheet" href="nowyplik.css">
   
 </head>
 
 <body >
+  <div id="wrapper" :class="[zmiana2 == 1 ? 'results' : 'home']">  
+ <div class="correct">
     <div class="full_page">
    <div class="top">
      <div class="top_1">
@@ -75,8 +77,10 @@
               </div>
         <label for="fname"> </label><br>
         <form method="GET" action="file:///C:/Users/Sanderkatojahaha/Desktop/SandraBogdan.github.io/Google/nowyplik.html" >
-         <input  type="text" class="dodatek" />
+         <input @focus="foc" ref="first" v-model="googleSearch" type="text" class="dodatek" v-on:keyup.down="downClick" v-on:keyup.up="upClick" v-on:keyup.enter="enterClick"/>
         </form>
+
+
            </div>
            <div class="icons">
              <div class="key">
@@ -144,6 +148,136 @@
   
 
   </div>
+ </div>
 
+ 
+ <div class="googlesearcher">
+  <img src="googlelogo1.jpg" alt="" v-on:click="zmiana()">
+
+  <ul class="ontop">
+    <li>
+      <a aria-label="Aplikacje Google" href="https://www.google.pl/intl/pl/about/products" aria-expanded="false" role="button" tabindex="0" class="styl_1"><svg focusable="false" viewBox="0 0 24 24" class="elements"><path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 
+      0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2
+       -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path></svg></a></a></li>
+    <li><button class="ontop2" type="button" name="button">Zaloguj się</button></li>
+  </ul>
+
+  <div class="search">
+
+    <div class="search_elements">
+      <input ref="second" type="text" v-model="googleSearch"/>
+      <img src="x.png" class="x">
+      <div class="line"></div>
+      <img src="tia.png" class="keybord">
+      <img src="mic.png" class="micro">
+      <img src="lupa.png" class="lupa" >
+    </div>
+
+    <ul class="search_options">
+      <li class="letters"><a href="">Wszystko</a></li>
+      <li class="letters"><a href="">Wiadomości</a></li>
+      <li class="letters"><a href="">Grafika</a></li>
+      <li class="letters"><a href="">Wideo</a></li>
+      <li class="letters"><a href="">Mapy</a></li>
+      <li class="letters"><a href="">Więcej</a></li>
+      <li class="letters1"><a class="tools" href="">Narzędzia</a></li>
+      <li class="letters1"><a href="">Ustawienia</a></li>
+    </ul>
+  </div>
+
+</div> 
+
+<div class="searchResults">
+
+  <p id="results_count">Około 14 700 000 wyników (0,34 s) </p>
+  <div class="cities">
+    <a class="link">Miasta zawierające "{{googleSearch}}":</a>
+    <ul>
+      <li v-for="city in filteredCities">
+        {{ city.name }}
+      </li>
+    </ul>
+  </div>
+
+  <div class="result" style="margin-top:30px;">
+    <a href="https://www.google.com/search?q=jaki%C5%9B+wunik+google&sxsrf=ALeKk034keCFyPeQ9A0a8ClLMtTiBIRYMw%3A1621452981591&ei=tWilYOyuI4e5ggfbmrzgCw&oq=jaki%C5%9B+wunik+google&gs_lcp=Cgdnd3Mtd2l6EAMyBQghEKABUNgQWLgZYLkaaABwAngAgAG-AogB6gSSAQMzLTKYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=gws-wiz&ved=0ahUKEwis3fKHv9bwAhWHnOAKHVsND7wQ4dUDCA4&uact=5">
+        support.google.com<span style="color:gray"> > websearch > answer</span><button>▼</button>
+        <h2 >Sprawdzanie wyników wyszukiwania podrózy przez Gmaila ...</h2></a>
+    <p>Zobacz wynki z innego konta Google. Uwaga: aby wykonać te czynności , musisz zalogowac się na konto Google. Na telefonie lub na tablecie z Androidem otwórz... </p>
+    </div>
+
+    <div class="result" style="margin-top:30px;">
+        <a href="https://www.google.com/search?q=jaki%C5%9B+wunik+google&sxsrf=ALeKk034keCFyPeQ9A0a8ClLMtTiBIRYMw%3A1621452981591&ei=tWilYOyuI4e5ggfbmrzgCw&oq=jaki%C5%9B+wunik+google&gs_lcp=Cgdnd3Mtd2l6EAMyBQghEKABUNgQWLgZYLkaaABwAngAgAG-AogB6gSSAQMzLTKYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=gws-wiz&ved=0ahUKEwis3fKHv9bwAhWHnOAKHVsND7wQ4dUDCA4&uact=5">
+            support.google.com<span style="color:gray"> > websearch > answer</span><button>▼</button>
+            <h2 >Zawężanie wyników wyszukiwania-Wyszukiwarka Google...</h2></a>
+        <p>Możesz zwiększyć precyzje wyników wyszukiwania, używając w zapytaniu słów i symboli. Wyszukiwarka Google zwykle ignoruje znaki interpunkcyjne, które nie...</p>
+    </div>
+
+    <div class="result" style="margin-top:30px;">
+        <a href="https://www.google.com/search?q=jaki%C5%9B+wunik+google&sxsrf=ALeKk034keCFyPeQ9A0a8ClLMtTiBIRYMw%3A1621452981591&ei=tWilYOyuI4e5ggfbmrzgCw&oq=jaki%C5%9B+wunik+google&gs_lcp=Cgdnd3Mtd2l6EAMyBQghEKABUNgQWLgZYLkaaABwAngAgAG-AogB6gSSAQMzLTKYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=gws-wiz&ved=0ahUKEwis3fKHv9bwAhWHnOAKHVsND7wQ4dUDCA4&uact=5">
+            support.google.com<span style="color:gray"> > websearch > answer</span><button>▼</button>
+            <h2 >Rodzaje wyników wyszukiwania Google - ponad 20% ...
+            </h2></a>
+        <p>7) Wewnętrzna wyszukiwarka. Rodzaje wyników wyszukiwania Google wzbogacono o jakiś czas temu o funkcję wewnętrznej wyszukiwarki. To rozwiązanie, bez ... </p>
+    </div>
+
+    <div class="result" style="margin-top:30px;">
+        <a href="https://www.google.com/search?q=jaki%C5%9B+wunik+google&sxsrf=ALeKk034keCFyPeQ9A0a8ClLMtTiBIRYMw%3A1621452981591&ei=tWilYOyuI4e5ggfbmrzgCw&oq=jaki%C5%9B+wunik+google&gs_lcp=Cgdnd3Mtd2l6EAMyBQghEKABUNgQWLgZYLkaaABwAngAgAG-AogB6gSSAQMzLTKYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=gws-wiz&ved=0ahUKEwis3fKHv9bwAhWHnOAKHVsND7wQ4dUDCA4&uact=5">
+            support.google.com<span style="color:gray"> > websearch > answer</span><button>▼</button>
+            <h2 >14 sposobów wyszukiwania w Google, których 95% z Was nie ...</h2></a>
+        <p>Szukanie frazy – zastosowanie cudzysłowu. Wyniki wyszukiwania w Google konkretnych fraz mogą być bardziej trafne, gdy zastosujemy cudzysłów. Algorytmy ...</p>
+        
+    </div>
+
+    <div class="result" style="margin-top:30px;">
+        <a href="https://www.google.com/search?q=jaki%C5%9B+wunik+google&sxsrf=ALeKk034keCFyPeQ9A0a8ClLMtTiBIRYMw%3A1621452981591&ei=tWilYOyuI4e5ggfbmrzgCw&oq=jaki%C5%9B+wunik+google&gs_lcp=Cgdnd3Mtd2l6EAMyBQghEKABUNgQWLgZYLkaaABwAngAgAG-AogB6gSSAQMzLTKYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=gws-wiz&ved=0ahUKEwis3fKHv9bwAhWHnOAKHVsND7wQ4dUDCA4&uact=5">
+            support.google.com<span style="color:gray"> > websearch > answer</span><button>▼</button>
+            <h2 >Wyniki wyszukiwań Google – skąd takie rozbieżności?</h2></a>
+        <p>Otóż inaczej będą prezentować się wyniki wyszukiwania po wpisaniu tej samej frazy przez ... Google przechwytuje adres IP i za jego pomocą generuje wyniki, np. po wpisaniu frazy ... Jaki jest koszt pozycjonowania sklepu?</p>
+    </div>
+
+  <br>
+
+  <div class="resultes">
+    <h2>Wyszukiwania podobne</h2>
+    
+
+    <table class="pages">
+      <tr>
+        <td><span class="blue">G</span></td>
+        <td><span class="red">o</span></td>
+        <td><span class="yellow">o</span></td>
+        <td><span class="yellow">o</span></td>
+        <td><span class="yellow">o</span></td>
+        <td><span class="yellow">o</span></td>
+        <td><span class="yellow">o</span></td>
+        <td><span class="yellow">o</span></td>
+        <td><span class="yellow">o</span></td>
+        <td><span class="yellow">o</span></td>
+        <td><span class="yellow">o</span></td>
+        <td><span class="blue">g</span></td>
+        <td><span class="green">l</span></td>
+        <td><span class="red">e</span></td>
+        <td rowspan="3" style="width: 12px;"></td>
+        <td><span class="blue arrow">></span></td>
+      </tr>
+
+      <tr>
+        <td class="numer"></td>
+        <td class="numer" style="color: rgb(8, 8, 8); cursor: text;">1</td>
+        <td class="numer">2</td>
+        <td class="numer">3</td>
+        <td class="numer">4</td>
+        <td class="numer">5</td>
+        <td class="numer">6</td>
+        <td class="numer">7</td>
+        <td class="numer">8</td>
+        <td class="numer">9</td>
+        <td class="numer">10</td>
+      </tr>
+    </table>
+</div>
+</div>
+</div>
 </body>
 </html>

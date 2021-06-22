@@ -9,7 +9,10 @@ body{
     min-width: 400px;
     display: block;
 }
-
+.home .home{
+    visibility: hidden ;
+    margin-top: -10000;
+}
 .full_page{
     display: flex;
     flex-direction: column;

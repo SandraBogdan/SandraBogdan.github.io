@@ -1,0 +1,374 @@
+
+.results *{
+    box-sizing: border-box;
+    outline: none;
+    font-family: arial, sans-serif;
+}
+div.results  {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    max-height: none;
+}
+
+.results .ontop {
+    display: inline;
+    padding: 22px;
+    margin-top: 0px;
+    float: right;
+}
+.results .correct{
+    visibility: hidden;
+    margin-top: -788;
+}
+.results .ontop2 {
+    border: 1px solid #3478e7;
+    background: #2f75e6;
+    color: rgb(250, 242, 242);
+    padding: 7px 18px;
+    border-radius: 3px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+
+.results .ontop li {
+    padding: 11px;
+}
+
+
+.results img {
+    width: 90px;
+    display: inline;
+    margin-left:27px;
+    margin-right: 42px;
+    margin-top: 30px;
+    vertical-align: top;
+}
+
+.results .google_napis {
+    width: 40px;
+    top: 0px;
+    cursor: pointer;
+    padding: 7px 7px;
+    margin: -2px 7px;
+}
+
+.results .google_napis:hover {
+    background-color: #f5edede5;
+    padding: 7px 7px;
+    border-radius: 32px;
+}
+
+.results h2 a {
+    font-size: 20px;
+}
+
+.results h2 {
+    font-weight: normal;
+    margin: 0 0 8px 0;
+    color: darkblue;
+}
+
+.results h2 a:hover {
+    text-decoration: underline;
+}
+
+.results .link {
+    color: rgb(68, 67, 67);
+    font-size: 13px;
+}
+
+
+.results a {
+    text-decoration: none;
+    color: rgb(78, 77, 77);
+}
+
+.results p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.results span {
+    color: rgb(153, 150, 150);
+}
+.results ul {
+    margin: 0;
+    padding: 0;
+}
+
+.results .googlesearcher {
+    display: block;
+    border-bottom: 2px solid rgb(241, 233, 233);
+}
+
+.results .search_options li{
+    color: #646a70;
+    margin-top: -10px;
+    font-size: 13px;
+}
+
+.results .search_elements {
+    width: 900px;
+    position: relative;
+    display: flex;
+}
+
+.results li {
+    display: inline;
+}
+
+
+.results .search {
+    margin-top: 22px;
+    width: 710px;
+    display: inline-block;
+    vertical-align: bottom;
+    color: #74787c;
+}
+.results .search_elements img {
+    position: relative;
+    width: 15;
+    margin: 8;
+    height: 23;
+    left: -140;
+}
+.results .search .lupa {
+    margin-left: 13;
+    top: 6;
+    height: 17;
+    opacity: 0.7;
+    width: 20px;
+    cursor: pointer;
+    left: -160;
+}
+
+.results .search .micro {
+    cursor: pointer;
+    height: 20;
+    margin-left: 13;
+    top: 5;
+    width: 20px;
+    left: -160;
+}
+
+.results .search .keybord {
+    cursor: pointer;
+    height: 11;
+    width: 21px;
+    top: 9px;
+    margin-left: 15;
+    left: -160;
+    
+}
+
+.results .search .line {
+    border-left: 1px solid rgb(226, 226, 226);
+    position: absolute;
+    right: 23px;
+    top: 8px;
+    height: 25px;
+    margin-right: 250;
+}
+
+
+.results .search input:hover {
+    border: 1px solid rgb(252, 248, 248);
+    box-shadow: 0 0 5px rgba(175, 174, 174, 0.822);
+}
+
+.results .search_options {
+    
+    width: 720px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.results .letters {
+    float: left;
+    margin-right: 10px;
+    margin-left: 0px;
+}
+
+.results .search .x {
+    top: 8;
+    right: -2px;
+    cursor: pointer;
+    height: 14;
+    left: -160;
+}
+
+.results .search input {
+    display: block;
+    width: 100%;
+    width: 10000px;
+    height: 46px;
+    padding: 14px;
+    padding-left: 21px;
+    border-radius: 26px;
+    border: 1px solid rgb(228, 225, 225);
+    font-size: 17px;
+    transition: box-shadow 100ms;
+}
+
+.results .letters1 {
+    float: right;
+    margin-right: 11px;
+    margin-left: 0px;
+}
+
+.results .search_options li {
+    padding: 10px 5px;
+}
+
+.results .search_options li a {
+    color: #717579;
+    font-family: Google Sans,arial,sans-serif;
+    font-size: 14px;
+    padding: 5px 8px;
+}
+
+.results .tools:hover{
+    background-color: rgb(250, 241, 241);
+    border: 1px solid rgba(223, 221, 221, 0.822);
+    border-radius: 2px;
+}
+
+.results .search_options li.active {
+    border-bottom: 3px solid #196cd8;
+}
+
+.results .search_options li.active a {
+    color: #1868d1;
+}
+
+.results .searchResults {
+    margin-left: 180px;
+    width: 585px;
+    display: inline-block;
+}
+
+.results .result {
+    margin: 25px 0 20px 5px;
+}
+
+.results .results_count {
+    margin-top: 15px;
+    color: rgb(116, 114, 114);
+}
+
+.results .result p {
+    margin: 3px 0 25px 0;
+    color: #4e4d4d;
+    line-height: 1.5em;
+    font-size: 14px;
+}
+
+.results .result button {
+    font-size: 10px;
+    line-height: 20px;
+    color: rgb(70, 67, 67);
+    padding-left: 5px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+.results table.pages {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: -0.11em;
+    font-size: 2.4em;
+    margin-bottom: 21px;
+    font-weight: bold;
+    margin-left: 152px;
+}
+
+.results .numer {
+    font-size: 12px;
+    color: rgb(56, 98, 252);
+    letter-spacing: normal;
+    text-align: center;
+    cursor: pointer;
+}
+
+.results .resultes h2 {
+    margin-top: 4px;
+    margin-left: 4px;
+    margin-bottom: 21px;
+    
+}
+.results .pages .numer {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.results .header{
+    display: none;
+}
+
+.results .middle {
+    display: none;
+}
+
+.results footer{
+    display:none;
+}
+
+.results .blue {
+    color: #5993f1;
+}
+
+.results .red {
+    color: rgb(224, 38, 38);
+}
+
+.results .green {
+    color: rgb(42, 168, 31);
+}
+
+.results .yellow {
+    color: rgb(247, 203, 71);
+}
+
+.results .resultes td {
+    padding-top: 7px;
+    padding-right: inherit;
+    cursor: pointer;
+    color: rgb(3, 6, 172);
+    font-weight: bold;
+    width: 10;
+   
+}
+
+.results .arrow {
+    margin-left: -52px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+   
+}
+
+.results .numer:hover{
+    text-decoration: underline;
+}
+
+.results .searchResults .cities{
+    padding:20px;
+}
+
+.results .searchResults .cities ul li{
+    display: list-item;
+    margin-left: 10px;
+    color:rgb(3, 6, 189);
+    list-style: circle;
+    padding: 7px;
+    font-size: 16px;
+}
+.results .searchResults .cities a{
+    color: rgb(8, 8, 8);
+    margin-bottom: 10px;
+    font-size: 16px;
+}
